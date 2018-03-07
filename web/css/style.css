@@ -1,0 +1,101 @@
+body {
+    margin-top: 1em;
+    font-family: 'calibri';
+}
+
+table {
+    width: 100%;
+    border: 1px hidden #000;
+    background-color: #eb8f27;
+}
+		
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px hidden #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    background-color: #fff;
+}
+		
+caption {
+    padding: 0.3em;
+    color: #fff;
+    background: #af4025;
+}
+		
+th {
+    background: #eee;
+}
+
+/*Estilo de los filtros*/
+.filtro {
+  	text-align: center;
+  	margin: 0 auto;
+}
+
+.combo_box {
+  	display: inline-block;
+  	margin: 1em;
+}
+
+.combo_box select {
+  	text-align-last: center;
+  	font-weight: bold; 
+  	border: none;
+  	width: 130px;
+    height: 30px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #999799;
+    border-bottom: 3px solid #999799;
+  	
+}
+
+/*Fin estilo de los filtros*/
+                
+.login {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}
+
+.input_text {
+    width: 230px;
+    height: 30px;
+    margin-bottom: 1em;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: 1px solid #999799;
+    border-bottom: 3px solid #999799;
+}
+
+.input_butt {
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #005b7f;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border: none;
+}
+
+.input_butt:active {
+    background-color: #004b6f;
+    text-align-last: center;
+}
+
+.tabla {
+    height: 100%;
+    width: 100%;
+} 
